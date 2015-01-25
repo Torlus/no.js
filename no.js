@@ -20,7 +20,7 @@ function lobotomize(obj) {
 
 // Sanitize the DOM, which is the root of all evil.
 lobotomize(document);
-// Disable so-called features, which are doing more bad than good.
+// Disable so-called features, which are doing more harm than good.
 document.getElementById = undefined;
 document.getElementsByClassName = undefined;
 document.getElementsByName = undefined;
